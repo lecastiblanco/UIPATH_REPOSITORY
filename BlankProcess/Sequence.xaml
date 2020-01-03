@@ -1,0 +1,323 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,446.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="476,346.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" ApiKey="NWgxKkDELQRdjMc1YOyxH3GrL39rXKBR3L9AYr7odUtuKPghc6Nnl6qSrv5WlLxE" DisplayName="CV Screen Scope 'SysListView32'" sap:VirtualizedContainerService.HintSize="434,254.666666666667" sap2010:WorkflowViewState.IdRef="CVScope_1" Version="V1">
+      <p:CVScope.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_2" />
+        </ActivityAction>
+      </p:CVScope.Body>
+      <p:CVScope.DesignTimeCache>
+        <uc:CVCache InformativeScreenshot="ae9bff7960923b8fb7bd7bd4a5cbea4b" LogicalPosition="0, 0" OcrText="O Extract0503120322 201912 Extract0503120322 201 X v&#xD;&#xA;@ 201912 4518 TARJETA MASTERCARD 2451.pdf x&#xD;&#xA;de 2 Contenido P Bancolombia&#xD;&#xA;SENOR&#xD;&#xA;LEIDY ROCIO CASTIBLANCO ROMERO&#xD;&#xA;CLL 20 10 79 ESTE&#xD;&#xA;CIUDAD EXTERIOR&#xD;&#xA;ESTADO EXTERIOR&#xD;&#xA;Bancolombia + G) Ajustar a Ia página Vista de página A)) Lectura en voz alta&#xD;&#xA;5303720230322451 Agregar notas&#xD;&#xA;CUPON DE PAGO EN:&#xD;&#xA;FECHA DE PAGO PESOS&#xD;&#xA;Tarjeta:&#xD;&#xA;ANO&#xD;&#xA;EFECTIVO MES&#xD;&#xA;FORMA OE PAGO&#xD;&#xA;CHEQUE BANCO VALOR&#xD;&#xA;NUMERO&#xD;&#xA;SENOR (A):&#xD;&#xA;TARJETA: LEIDY ROCIO CASTIBLANCO ROMERO&#xD;&#xA;5303720230322451&#xD;&#xA;ESTADO DE CUENTA EN PESOS&#xD;&#xA;Coljuegxs Por cada $ 200_000 que acumules en compras con tus&#xD;&#xA;praductos Bancolombia podrás Jugar y ganar miles&#xD;&#xA;de Puntos Colombia. Ingresa a&#xD;&#xA;www_grupobancolombia.com/magia y participa.&#xD;&#xA;Aplican TyC_&#xD;&#xA;RECUERDE QUE VAMBIEN PUEDE CONSULTAR SUS EXTRACTOS [NGRESANDO EN LA SUCURSAL VIRTUAL PERSONAS, EN LA OPCION DOCUMENTOS.&#xD;&#xA;Cupo Total&#xD;&#xA;Disponible Total&#xD;&#xA;Tasas de interés vigente Cupo de Avances&#xD;&#xA;Disponible Avances&#xD;&#xA;Resumen Saldo Total&#xD;&#xA;Saldo anterior Periodo Facturado&#xD;&#xA;Desde: 17/11/2019&#xD;&#xA;Pague antes de&#xD;&#xA;02/01/2020 Hasta: 15/12/2019&#xD;&#xA;Va[or Pagado&#xD;&#xA;Resumen Pago Mínimo&#xD;&#xA;Saldo en mora o_oo" Position="0, 0" ScaleFactor="1.5" ScreenshotGuid="dce33dfc-800e-42bd-8235-5d9e721eaa65" ServerVersion="1">
+          <uc:CVCache.CvUiElements>
+            <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="64">
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="487, 81, 20, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="105, 84, 21, 16" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="208, 81, 21, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="304, 5, 18, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="104, 5, 18, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1210, 41, 20, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="527, 82, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1121, 82, 20, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1170, 41, 21, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="90, 42, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1202, 84, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1162, 83, 18, 17" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="6, 6, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="508, 7, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="38, 8, 19, 15" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1250, 82, 20, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="713, 83, 20, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="568, 84, 19, 16" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="446, 82, 22, 19" Score="1" />
+              <uc:CvElementInfo Category="CloseButton" Confidence="DesignTime" Region="1248, 6, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="ArrowButton" Confidence="DesignTime" Region="538, 7, 20, 17" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1075, 42, 18, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="70, 5, 19, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1131, 42, 20, 19" Score="1" />
+              <uc:CvElementInfo Category="CloseButton" Confidence="DesignTime" Region="474, 8, 15, 16" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="48, 40, 22, 20" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="852, 83, 20, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="9, 42, 22, 18" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="DesignTime" Region="87, 0, 214, 32" Score="1" />
+              <uc:CvElementInfo Category="MinimizeButton" Confidence="DesignTime" Region="1157, 8, 16, 12" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1248, 41, 24, 18" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="144, 44, 14, 14" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="DesignTime" Region="294, 0, 214, 35" Score="1" />
+              <uc:CvElementInfo Category="MinimizeButton" Confidence="DesignTime" Region="403, 80, 24, 19" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="266, 494, 37, 38" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="DesignTime" Region="1203, 8, 15, 14" Score="1" />
+              <uc:CvElementInfo Category="InputBox" Confidence="DesignTime" Region="148, 36, 1079, 31" Score="1" />
+              <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="1202, 8, 16, 16" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="840, 598, 182, 16" Score="1" />
+              <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="8, 41, 23, 18" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="64, 0, 31, 29" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="404, 84, 23, 16" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="143, 43, 16, 16" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="464, 143, 61, 40" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="560, 504, 61, 33" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="421, 344, 58, 37" Score="1" />
+              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="1000, 81, 20, 22" Score="1" />
+              <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="49, 41, 21, 19" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="260, 644, 240, 18" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="422, 345, 58, 36" Score="1" />
+              <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="82, 0, 214, 30" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="836, 612, 188, 20" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="539, 385, 44, 18" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="709, 78, 127, 28" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="774, 647, 244, 15" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="0, 72, 38, 41" Score="1" />
+              <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="260, 661, 244, 16" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="37, 76, 56, 30" Score="1" />
+              <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="837, 612, 185, 20" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="257, 598, 192, 15" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="258, 613, 194, 20" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1236, 76, 42, 32" Score="1" />
+              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="1247, 40, 26, 19" Score="1" />
+            </scg:List>
+          </uc:CVCache.CvUiElements>
+          <uc:CVCache.OcrTexts>
+            <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="256">
+              <uc:OcrTextInfo Region="93, 45, 14, 14" Text="O" />
+              <uc:OcrTextInfo Region="132, 11, 107, 9" Text="Extract0503120322" />
+              <uc:OcrTextInfo Region="246, 11, 41, 9" Text="201912" />
+              <uc:OcrTextInfo Region="333, 11, 107, 9" Text="Extract0503120322" />
+              <uc:OcrTextInfo Region="447, 11, 18, 9" Text="201" />
+              <uc:OcrTextInfo Region="478, 11, 10, 10" Text="X" />
+              <uc:OcrTextInfo Region="542, 13, 12, 6" Text="v" />
+              <uc:OcrTextInfo Region="146, 46, 12, 12" Text="@" />
+              <uc:OcrTextInfo Region="524, 48, 41, 9" Text="201912" />
+              <uc:OcrTextInfo Region="572, 48, 27, 9" Text="4518" />
+              <uc:OcrTextInfo Region="605, 48, 47, 9" Text="TARJETA" />
+              <uc:OcrTextInfo Region="660, 48, 79, 9" Text="MASTERCARD" />
+              <uc:OcrTextInfo Region="746, 47, 49, 13" Text="2451.pdf" />
+              <uc:OcrTextInfo Region="1251, 11, 10, 10" Text="x" />
+              <uc:OcrTextInfo Region="50, 87, 13, 10" Text="de" />
+              <uc:OcrTextInfo Region="68, 88, 6, 9" Text="2" />
+              <uc:OcrTextInfo Region="132, 87, 54, 9" Text="Contenido" />
+              <uc:OcrTextInfo Region="212, 84, 16, 16" Text="P" />
+              <uc:OcrTextInfo Region="262, 154, 150, 22" Text="Bancolombia" />
+              <uc:OcrTextInfo Region="264, 215, 31, 6" Text="SENOR" />
+              <uc:OcrTextInfo Region="263, 231, 26, 6" Text="LEIDY" />
+              <uc:OcrTextInfo Region="292, 231, 30, 6" Text="ROCIO" />
+              <uc:OcrTextInfo Region="326, 231, 64, 6" Text="CASTIBLANCO" />
+              <uc:OcrTextInfo Region="394, 231, 40, 6" Text="ROMERO" />
+              <uc:OcrTextInfo Region="263, 258, 16, 6" Text="CLL" />
+              <uc:OcrTextInfo Region="282, 258, 10, 6" Text="20" />
+              <uc:OcrTextInfo Region="296, 258, 9, 6" Text="10" />
+              <uc:OcrTextInfo Region="308, 258, 9, 6" Text="79" />
+              <uc:OcrTextInfo Region="322, 258, 23, 6" Text="ESTE" />
+              <uc:OcrTextInfo Region="263, 271, 34, 6" Text="CIUDAD" />
+              <uc:OcrTextInfo Region="302, 271, 46, 6" Text="EXTERIOR" />
+              <uc:OcrTextInfo Region="263, 284, 37, 6" Text="ESTADO" />
+              <uc:OcrTextInfo Region="304, 284, 47, 6" Text="EXTERIOR" />
+              <uc:OcrTextInfo Region="261, 354, 119, 18" Text="Bancolombia" />
+              <uc:OcrTextInfo Region="449, 84, 16, 16" Text="+" />
+              <uc:OcrTextInfo Region="489, 84, 16, 16" Text="G)" />
+              <uc:OcrTextInfo Region="592, 88, 36, 11" Text="Ajustar" />
+              <uc:OcrTextInfo Region="633, 90, 4, 6" Text="a" />
+              <uc:OcrTextInfo Region="643, 87, 7, 9" Text="Ia" />
+              <uc:OcrTextInfo Region="655, 88, 34, 11" Text="página" />
+              <uc:OcrTextInfo Region="738, 89, 24, 8" Text="Vista" />
+              <uc:OcrTextInfo Region="767, 88, 12, 9" Text="de" />
+              <uc:OcrTextInfo Region="784, 89, 34, 11" Text="página" />
+              <uc:OcrTextInfo Region="854, 85, 15, 14" Text="A))" />
+              <uc:OcrTextInfo Region="878, 88, 36, 8" Text="Lectura" />
+              <uc:OcrTextInfo Region="919, 91, 11, 6" Text="en" />
+              <uc:OcrTextInfo Region="935, 91, 17, 6" Text="voz" />
+              <uc:OcrTextInfo Region="956, 88, 18, 9" Text="alta" />
+              <uc:OcrTextInfo Region="852, 234, 104, 9" Text="5303720230322451" />
+              <uc:OcrTextInfo Region="1023, 88, 42, 11" Text="Agregar" />
+              <uc:OcrTextInfo Region="1070, 89, 28, 8" Text="notas" />
+              <uc:OcrTextInfo Region="666, 143, 32, 6" Text="CUPON" />
+              <uc:OcrTextInfo Region="702, 143, 12, 6" Text="DE" />
+              <uc:OcrTextInfo Region="718, 143, 26, 6" Text="PAGO" />
+              <uc:OcrTextInfo Region="747, 143, 14, 6" Text="EN:" />
+              <uc:OcrTextInfo Region="710, 218, 26, 6" Text="FECHA" />
+              <uc:OcrTextInfo Region="740, 218, 10, 6" Text="DE" />
+              <uc:OcrTextInfo Region="753, 218, 22, 6" Text="PAGO" />
+              <uc:OcrTextInfo Region="806, 143, 31, 6" Text="PESOS" />
+              <uc:OcrTextInfo Region="822, 220, 26, 7" Text="Tarjeta:" />
+              <uc:OcrTextInfo Region="681, 230, 16, 6" Text="ANO" />
+              <uc:OcrTextInfo Region="670, 276, 38, 6" Text="EFECTIVO" />
+              <uc:OcrTextInfo Region="733, 230, 16, 6" Text="MES" />
+              <uc:OcrTextInfo Region="748, 259, 28, 6" Text="FORMA" />
+              <uc:OcrTextInfo Region="780, 259, 10, 6" Text="OE" />
+              <uc:OcrTextInfo Region="793, 259, 22, 6" Text="PAGO" />
+              <uc:OcrTextInfo Region="722, 276, 33, 6" Text="CHEQUE" />
+              <uc:OcrTextInfo Region="778, 276, 27, 6" Text="BANCO" />
+              <uc:OcrTextInfo Region="948, 259, 28, 6" Text="VALOR" />
+              <uc:OcrTextInfo Region="839, 276, 34, 6" Text="NUMERO" />
+              <uc:OcrTextInfo Region="675, 352, 32, 6" Text="SENOR" />
+              <uc:OcrTextInfo Region="710, 352, 14, 8" Text="(A):" />
+              <uc:OcrTextInfo Region="674, 366, 43, 6" Text="TARJETA:" />
+              <uc:OcrTextInfo Region="732, 352, 26, 6" Text="LEIDY" />
+              <uc:OcrTextInfo Region="762, 352, 29, 6" Text="ROCIO" />
+              <uc:OcrTextInfo Region="795, 352, 67, 6" Text="CASTIBLANCO" />
+              <uc:OcrTextInfo Region="866, 352, 41, 6" Text="ROMERO" />
+              <uc:OcrTextInfo Region="732, 366, 80, 6" Text="5303720230322451" />
+              <uc:OcrTextInfo Region="412, 392, 37, 6" Text="ESTADO" />
+              <uc:OcrTextInfo Region="453, 392, 12, 6" Text="DE" />
+              <uc:OcrTextInfo Region="468, 392, 38, 6" Text="CUENTA" />
+              <uc:OcrTextInfo Region="510, 392, 11, 6" Text="EN" />
+              <uc:OcrTextInfo Region="546, 392, 31, 6" Text="PESOS" />
+              <uc:OcrTextInfo Region="566, 520, 49, 8" Text="Coljuegxs" />
+              <uc:OcrTextInfo Region="712, 412, 16, 8" Text="Por" />
+              <uc:OcrTextInfo Region="732, 412, 22, 8" Text="cada" />
+              <uc:OcrTextInfo Region="758, 412, 5, 9" Text="$" />
+              <uc:OcrTextInfo Region="766, 412, 38, 8" Text="200_000" />
+              <uc:OcrTextInfo Region="808, 414, 16, 8" Text="que" />
+              <uc:OcrTextInfo Region="829, 412, 44, 8" Text="acumules" />
+              <uc:OcrTextInfo Region="878, 414, 10, 6" Text="en" />
+              <uc:OcrTextInfo Region="892, 414, 40, 8" Text="compras" />
+              <uc:OcrTextInfo Region="936, 414, 16, 6" Text="con" />
+              <uc:OcrTextInfo Region="956, 412, 13, 8" Text="tus" />
+              <uc:OcrTextInfo Region="720, 432, 45, 10" Text="praductos" />
+              <uc:OcrTextInfo Region="770, 432, 60, 8" Text="Bancolombia" />
+              <uc:OcrTextInfo Region="834, 432, 32, 10" Text="podrás" />
+              <uc:OcrTextInfo Region="870, 432, 26, 10" Text="Jugar" />
+              <uc:OcrTextInfo Region="899, 434, 5, 8" Text="y" />
+              <uc:OcrTextInfo Region="908, 434, 27, 8" Text="ganar" />
+              <uc:OcrTextInfo Region="938, 432, 24, 8" Text="miles" />
+              <uc:OcrTextInfo Region="768, 452, 10, 8" Text="de" />
+              <uc:OcrTextInfo Region="784, 452, 32, 8" Text="Puntos" />
+              <uc:OcrTextInfo Region="820, 452, 46, 8" Text="Colombia." />
+              <uc:OcrTextInfo Region="870, 452, 34, 10" Text="Ingresa" />
+              <uc:OcrTextInfo Region="908, 454, 5, 6" Text="a" />
+              <uc:OcrTextInfo Region="729, 472, 168, 10" Text="www_grupobancolombia.com/magia" />
+              <uc:OcrTextInfo Region="902, 474, 4, 8" Text="y" />
+              <uc:OcrTextInfo Region="910, 472, 42, 10" Text="participa." />
+              <uc:OcrTextInfo Region="811, 492, 34, 10" Text="Aplican" />
+              <uc:OcrTextInfo Region="849, 492, 21, 10" Text="TyC_" />
+              <uc:OcrTextInfo Region="392, 548, 36, 4" Text="RECUERDE" />
+              <uc:OcrTextInfo Region="432, 548, 14, 5" Text="QUE" />
+              <uc:OcrTextInfo Region="448, 548, 29, 4" Text="VAMBIEN" />
+              <uc:OcrTextInfo Region="480, 548, 22, 4" Text="PUEDE" />
+              <uc:OcrTextInfo Region="505, 548, 41, 4" Text="CONSULTAR" />
+              <uc:OcrTextInfo Region="549, 548, 12, 4" Text="SUS" />
+              <uc:OcrTextInfo Region="564, 548, 40, 4" Text="EXTRACTOS" />
+              <uc:OcrTextInfo Region="607, 548, 44, 4" Text="[NGRESANDO" />
+              <uc:OcrTextInfo Region="654, 548, 8, 4" Text="EN" />
+              <uc:OcrTextInfo Region="666, 548, 7, 4" Text="LA" />
+              <uc:OcrTextInfo Region="676, 548, 36, 4" Text="SUCURSAL" />
+              <uc:OcrTextInfo Region="714, 548, 28, 4" Text="VIRTUAL" />
+              <uc:OcrTextInfo Region="746, 548, 38, 6" Text="PERSONAS," />
+              <uc:OcrTextInfo Region="786, 548, 8, 4" Text="EN" />
+              <uc:OcrTextInfo Region="798, 548, 8, 4" Text="LA" />
+              <uc:OcrTextInfo Region="808, 548, 25, 4" Text="OPCION" />
+              <uc:OcrTextInfo Region="836, 548, 49, 4" Text="DOCUMENTOS." />
+              <uc:OcrTextInfo Region="332, 567, 21, 8" Text="Cupo" />
+              <uc:OcrTextInfo Region="356, 567, 20, 6" Text="Total" />
+              <uc:OcrTextInfo Region="319, 600, 42, 8" Text="Disponible" />
+              <uc:OcrTextInfo Region="364, 600, 20, 6" Text="Total" />
+              <uc:OcrTextInfo Region="318, 650, 25, 6" Text="Tasas" />
+              <uc:OcrTextInfo Region="346, 650, 10, 6" Text="de" />
+              <uc:OcrTextInfo Region="360, 649, 27, 7" Text="interés" />
+              <uc:OcrTextInfo Region="390, 650, 30, 8" Text="vigente" />
+              <uc:OcrTextInfo Region="512, 567, 21, 8" Text="Cupo" />
+              <uc:OcrTextInfo Region="537, 567, 10, 6" Text="de" />
+              <uc:OcrTextInfo Region="550, 567, 35, 6" Text="Avances" />
+              <uc:OcrTextInfo Region="506, 600, 42, 8" Text="Disponible" />
+              <uc:OcrTextInfo Region="551, 600, 35, 6" Text="Avances" />
+              <uc:OcrTextInfo Region="586, 650, 38, 6" Text="Resumen" />
+              <uc:OcrTextInfo Region="628, 650, 23, 6" Text="Saldo" />
+              <uc:OcrTextInfo Region="654, 650, 20, 6" Text="Total" />
+              <uc:OcrTextInfo Region="519, 668, 19, 6" Text="Saldo" />
+              <uc:OcrTextInfo Region="542, 668, 26, 6" Text="anterior" />
+              <uc:OcrTextInfo Region="792, 566, 32, 7" Text="Periodo" />
+              <uc:OcrTextInfo Region="828, 567, 40, 6" Text="Facturado" />
+              <uc:OcrTextInfo Region="703, 584, 28, 6" Text="Desde:" />
+              <uc:OcrTextInfo Region="742, 584, 45, 6" Text="17/11/2019" />
+              <uc:OcrTextInfo Region="712, 600, 26, 8" Text="Pague" />
+              <uc:OcrTextInfo Region="742, 600, 22, 6" Text="antes" />
+              <uc:OcrTextInfo Region="767, 600, 10, 6" Text="de" />
+              <uc:OcrTextInfo Region="719, 620, 45, 6" Text="02/01/2020" />
+              <uc:OcrTextInfo Region="899, 584, 25, 6" Text="Hasta:" />
+              <uc:OcrTextInfo Region="932, 584, 45, 6" Text="15/12/2019" />
+              <uc:OcrTextInfo Region="898, 600, 22, 6" Text="Va[or" />
+              <uc:OcrTextInfo Region="923, 600, 31, 8" Text="Pagado" />
+              <uc:OcrTextInfo Region="839, 650, 38, 6" Text="Resumen" />
+              <uc:OcrTextInfo Region="882, 650, 20, 8" Text="Pago" />
+              <uc:OcrTextInfo Region="906, 649, 30, 7" Text="Mínimo" />
+              <uc:OcrTextInfo Region="792, 668, 19, 6" Text="Saldo" />
+              <uc:OcrTextInfo Region="815, 670, 8, 4" Text="en" />
+              <uc:OcrTextInfo Region="826, 670, 18, 4" Text="mora" />
+              <uc:OcrTextInfo Region="983, 668, 15, 6" Text="o_oo" />
+            </scg:List>
+          </uc:CVCache.OcrTexts>
+        </uc:CVCache>
+      </p:CVScope.DesignTimeCache>
+      <p:CVScope.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+          <ui:MicrosoftOCR FilterRegion="{x:Null}" Language="{x:Null}" Output="{x:Null}" Scale="{x:Null}" Text="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="MicrosoftOCR_1" Image="[Image]" Profile="Screen" />
+        </ActivityFunc>
+      </p:CVScope.OCREngine>
+      <p:CVScope.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="65f8a03f62649b6025d7461e9a2b3c82" Selector="&lt;wnd app='explorer.exe' cls='Progman' title='Program Manager' /&gt;&lt;wnd cls='SysListView32' title='FolderView' /&gt;" WaitForReady="INTERACTIVE">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+        </ui:Target>
+      </p:CVScope.Target>
+    </p:CVScope>
+  </Sequence>
+</Activity>
